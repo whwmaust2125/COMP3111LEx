@@ -5,7 +5,7 @@ public class myLibrary {
     public static int Power(int Base, int Exponent){
         if (Exponent==1){
             return Base * Exponent;
-        } eelse{
+        } else{
             return Base * Power(Base, Exponent - 1);
         }
     }
